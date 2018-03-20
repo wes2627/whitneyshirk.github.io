@@ -1,10 +1,37 @@
-<!DOCTYPEHTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="TriviaGame/GameAssets/css/style.css">
+	<title>TRIVIA!</title>
+</head>
+<body>
 
-<html>
-    <head>
-    
-    </head>
-    <h1>
-        
-    </h1>
+<!--button to start game
+/ timer
+/questions
+/button to finish
+/display score -->
+
+	<button class='startGame'>Click for Trivia!!</button>
+
+	<div class='wrapper'>
+
+		<h1 class='header'>Totally 90's Trivia Game!</h1>
+
+		<div class='timer' id='timeLeft'></div>
+
+		<div class='form' id='questions-container'></div>
+
+	</div>
+
+	<button id='doneButton'>Done</button>
+
+	<div class='message' id='messageDiv'></div>
+
+	<div class='results'></div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type='text/javascript' src="TriviaGame/GameAssets/javascript/app.js"></script>	
+</body>
 </html>
